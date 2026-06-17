@@ -1,9 +1,9 @@
 import { describe, expect } from "bun:test"
 import { Duration, Effect, Exit, Fiber, Layer, Scope, Stream } from "effect"
 import * as TestClock from "effect/testing/TestClock"
-import { Integration } from "@opencode-ai/core/integration"
-import { Credential } from "@opencode-ai/core/credential"
-import { EventV2 } from "@opencode-ai/core/event"
+import { Integration } from "@self-opencode/core/integration"
+import { Credential } from "@self-opencode/core/credential"
+import { EventV2 } from "@self-opencode/core/event"
 import { it } from "./lib/effect"
 
 const layer = Integration.locationLayer.pipe(

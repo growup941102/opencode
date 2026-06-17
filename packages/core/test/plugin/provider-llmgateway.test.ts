@@ -1,11 +1,11 @@
 import { describe, expect } from "bun:test"
 import { Effect } from "effect"
-import { Catalog } from "@opencode-ai/core/catalog"
-import { Integration } from "@opencode-ai/core/integration"
-import { PluginV2 } from "@opencode-ai/core/plugin"
-import { ProviderPlugins } from "@opencode-ai/core/plugin/provider"
-import { LLMGatewayPlugin } from "@opencode-ai/core/plugin/provider/llmgateway"
-import { ProviderV2 } from "@opencode-ai/core/provider"
+import { Catalog } from "@self-opencode/core/catalog"
+import { Integration } from "@self-opencode/core/integration"
+import { PluginV2 } from "@self-opencode/core/plugin"
+import { ProviderPlugins } from "@self-opencode/core/plugin/provider"
+import { LLMGatewayPlugin } from "@self-opencode/core/plugin/provider/llmgateway"
+import { ProviderV2 } from "@self-opencode/core/provider"
 import { expectPluginRegistered, it, provider } from "./provider-helper"
 
 describe("LLMGatewayPlugin", () => {

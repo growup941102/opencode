@@ -1,12 +1,12 @@
-import { LayerNode } from "@opencode-ai/core/effect/layer-node"
-import { ConfigPermissionV1 } from "@opencode-ai/core/v1/config/permission"
+import { LayerNode } from "@self-opencode/core/effect/layer-node"
+import { ConfigPermissionV1 } from "@self-opencode/core/v1/config/permission"
 import { InstanceState } from "@/effect/instance-state"
-import { Wildcard } from "@opencode-ai/core/util/wildcard"
+import { Wildcard } from "@self-opencode/core/util/wildcard"
 import { Deferred, Effect, Layer, Context } from "effect"
 import os from "os"
-import { PermissionV1 } from "@opencode-ai/core/v1/permission"
+import { PermissionV1 } from "@self-opencode/core/v1/permission"
 import { EventV2Bridge } from "@/event-v2-bridge"
-import { EventV2 } from "@opencode-ai/core/event"
+import { EventV2 } from "@self-opencode/core/event"
 
 export const Event = {
   Asked: EventV2.define({ type: "permission.asked", schema: PermissionV1.Request.fields }),

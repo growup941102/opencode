@@ -1,9 +1,9 @@
 import { describe, expect } from "bun:test"
 import { Context, Deferred, Effect, Exit, Fiber, Layer, Scope } from "effect"
-import { Database } from "@opencode-ai/core/database/database"
-import { EventV2 } from "@opencode-ai/core/event"
-import { QuestionV2 } from "@opencode-ai/core/question"
-import { SessionV2 } from "@opencode-ai/core/session"
+import { Database } from "@self-opencode/core/database/database"
+import { EventV2 } from "@self-opencode/core/event"
+import { QuestionV2 } from "@self-opencode/core/question"
+import { SessionV2 } from "@self-opencode/core/session"
 import { testEffect } from "./lib/effect"
 
 const database = Database.layerFromPath(":memory:")

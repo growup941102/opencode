@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "@opencode-ai/plugin",
+  "name": "@self-opencode/plugin",
   "version": "1.17.7",
   "type": "module",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "dist"
   ],
   "dependencies": {
-    "@opencode-ai/sdk": "workspace:*",
+    "@self-opencode/sdk": "workspace:*",
     "effect": "catalog:",
     "zod": "catalog:"
   },

@@ -1,7 +1,7 @@
 import * as NodeRuntime from "@effect/platform-node/NodeRuntime"
-import { Athena } from "@opencode-ai/stats-core/athena"
-import { layer as statsLayer } from "@opencode-ai/stats-core/runtime"
-import { syncStats } from "@opencode-ai/stats-core/stat-sync"
+import { Athena } from "@self-opencode/stats-core/athena"
+import { layer as statsLayer } from "@self-opencode/stats-core/runtime"
+import { syncStats } from "@self-opencode/stats-core/stat-sync"
 import { Cause, Effect, Layer, Schedule } from "effect"
 
 const SYNC_INTERVAL = "1 hour"

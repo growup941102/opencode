@@ -1,6 +1,6 @@
-import { LayerNode } from "@opencode-ai/core/effect/layer-node"
+import { LayerNode } from "@self-opencode/core/effect/layer-node"
 import { Context, Effect, Layer } from "effect"
-import { serviceUse } from "@opencode-ai/core/effect/service-use"
+import { serviceUse } from "@self-opencode/core/effect/service-use"
 import { InstanceState } from "@/effect/instance-state"
 
 type State = Record<string, string | undefined>
